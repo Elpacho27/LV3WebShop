@@ -160,7 +160,7 @@ function filterItems() {
     filteredItems.forEach((item) => {
         let button = document.createElement("button");
         let img = document.createElement("img");
-        img.src = `images/${item.name.toLowerCase()}.jpg`; 
+        img.src = `${item.name.toLowerCase()}.jpg`; 
         img.style.width = "100px"; 
         img.style.height = "100px";
         button.appendChild(img);
