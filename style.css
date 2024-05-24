@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D5F686 ;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.wallet-container {
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+}
+
+.wallet-container p {
+    margin: 0; 
+}
+.cart-container {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.cart-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-badge {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+.filter-container {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.filter-container input {
+    margin: 0 10px;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.filter-container button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.items-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.items-grid button {
+    padding: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; 
+}
+
+.items-grid button img {
+    display: block;
+    margin: 0 auto 10px; 
+    width: 100px; 
+    height: 100px;
+}
+
+.items-grid button:hover {
+    background-color: green;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buy-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-items li {
+    margin-bottom: 10px;
+}
+
+.cart-items button {
+    margin-left: 10px;
+}
+
+.message {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+
+.cart-total {
+    font-weight: bold;
+}
